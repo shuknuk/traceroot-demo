@@ -18,6 +18,13 @@ const App: React.FC = () => {
       <div className="mt-8 text-xs text-neutral-600 font-mono">
         <span className="bg-neutral-900 px-2 py-1 rounded border border-neutral-800">CMD + SHIFT + P</span> to trigger manual scan
       </div>
+
+      <footer className="absolute bottom-0 left-0 right-0 border-t border-neutral-800 bg-neutral-950/50 backdrop-blur">
+        <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between text-xs text-neutral-500">
+          <div>Made by <a href="https://linkedin.com/in/kinshukgoel2/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">Kinshuk Goel</a></div>
+          <a href="https://github.com/shuknuk/traceroot-demo" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">View Source</a>
+        </div>
+      </footer>
     </div>
   );
 };
